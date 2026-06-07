@@ -539,6 +539,17 @@ function Projection({ sim, balance0 }) {
 const CSS = `
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Hanken+Grotesk:wght@400;500;600;700&display=swap');
 
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: #070b10;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 .boliglan{
   --bg:#070b10; --bg2:#0c131a;
   --ink:#e9f1ef; --ink2:#9fb0b3; --ink3:#647479;
